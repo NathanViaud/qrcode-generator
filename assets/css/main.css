@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-100 dark:bg-gray-900 font-sans dark:text-gray-200 text-gray-700;
+}
+
+h1 {
+    @apply text-3xl font-bold;
+}
+
+h2 {
+    @apply text-2xl font-semibold;
+}
+
+h3 {
+    @apply text-xl font-semibold;
+}
+
+
+.router-link-active {
+    @apply text-primary;
+}
