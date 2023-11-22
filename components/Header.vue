@@ -14,7 +14,7 @@ function changeTheme() {
 onMounted(() => {
     const html = document.querySelector('html');
     if (!html) return;
-    icon.value = html.classList.contains('dark') ? 'i-heroicons-sun-20-solid' : 'i-heroicons-moon-20-solid';
+    icon.value = html.classList.contains('dark') ?  'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid';
 })
 </script>
 
